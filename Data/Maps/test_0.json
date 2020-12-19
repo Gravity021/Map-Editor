@@ -1,0 +1,13 @@
+{
+    "Tile_space": {
+        "Layer_0": {
+            "0,0": {"Tileset": "grass_0", "Tile": "grass_0", "Type": "Collidable"},
+            "1,0": {"Tileset": "grass_0", "Tile": "grass_0", "Type": "Collidable"}
+        }
+    }, 
+    "World_space": {
+        "Layer_0": {
+            "100,100": {"Tileset": "grass_0", "Tile": "dirt_0", "Type": "Collidable"}
+        }
+    }
+}
