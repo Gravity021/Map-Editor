@@ -204,7 +204,7 @@ while running:
                     game_map.add_tile([X_OFFSET, Y_OFFSET], mouse_pos, SPACE, LAYER, new_tile_data)
                     
                     pos = game_map.get_loc([X_OFFSET, Y_OFFSET], mouse_pos)
-                    pos = [pos[0] * TILESIZE + TILESIZE / 2, pos[1] * TILESIZE + TILESIZE / 2]
+                    pos = [(int(pos[0]) * TILESIZE) + X_OFFSET + TILESIZE / 2, (int(pos[1]) * TILESIZE) + Y_OFFSET + TILESIZE / 2]
                     vfx["Square_effects"].append(particles.SquareEffects(pos, 50, 6, 0.1, (255, 255, 255)))
 
                     typing = ""
